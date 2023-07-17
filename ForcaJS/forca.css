@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(91, 139, 141);
+}
+
+label{
+    width: 400px; /* Ajuste a largura conforme necessário */
+    height: 580px; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    border-radius: 15px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+.input_tent {
+    width: 100px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    font-size: 40px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    text-align: center;
+    line-height: normal;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.text_answer{
+    position: relative;
+    top: 150px;
+}
+.texto_info{
+    position: relative;
+    top: 50px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 85px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 150px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.erradas {
+    position: sticky;
+    bottom: 460px;
+}
+
+
+.input_fixed{
+    border-radius: 0px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: 40px;
+    margin-top: 90px;
+    background-color: white;
+    margin-left: 5px;
+    position: relative;
+    left: 40px;
+    text-align: center;
+    line-height: normal;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+input:focus {
+    outline: none;
+  }
+button:hover {
+    transition: 0.5s;
+    background-color: gray;
+    color: white;
+}
