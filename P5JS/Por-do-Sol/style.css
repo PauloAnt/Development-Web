@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+.info {
+  position:absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-top: 130px;
+  margin-left: 520px;
+
+}
