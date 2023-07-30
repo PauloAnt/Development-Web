@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro - CompreFácil</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <h1><a href="index.html"><img src="/CompreFacil/imgs/comprefacil.png" class="logo"></a></h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 class="subtitle">Cadastro</h2>
+        <form>
+            <label for="usuario">Nome e Sobrenome</label>
+            <input type="text" id="usuario" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="data">Data de nascimento</label>
+            <input type="date" id="data" class="input-padrao" required>
+
+            <fieldset>
+                <p>Gênero</p>
+                <label for="radio-masc" class="gener"><input type="radio" name="sexo" id="radio-masc" required>Masculino</label>
+                
+                <label for="radio-fem" class="gener"><input type="radio" name="sexo" id="radio-fem" required>Feminino</label>
+            </fieldset>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="input-padrao" required>
+
+            <label for="nov"><input type="checkbox" class="checkbox" id="nov" checked>Gostaria de receber novidades por email?</label>
+            
+
+            <input type="submit" class="submit" value="Cadastrar">
+        </form>
+    </main>
+    <footer>
+        <img src="/CompreFacil/imgs/comprefacil.png">
+        <p>&copy;Copyright - CompreFácil - 2023</p>
+    </footer>
+</body>
+</html>
