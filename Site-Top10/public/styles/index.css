@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 250px;
+
+}
+.card{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #171a1f;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.7);
+    transition: 0.3s;
+}
+.card-as{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #c4aa17;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.7);
+    transition: 0.3s;
+}
+.card-bm{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #175cc4;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.7);
+    transition: 0.3s;
+}
+.card-ft{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #dd1515;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.7);
+    transition: 0.3s;
+}
+.card-fb{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #0f991b;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.7);
+    transition: 0.3s;
+}
+.card-bb{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #ff00aa;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.7);
+    transition: 0.3s;
+}
+.img-sk{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.title-sk{
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 120px;
+    font-size: 15px;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: #171a1f;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+a{
+    text-decoration: none;
+}
+.text-tema{
+    text-align: center;
+    color: #8796af;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    
+}
+.box-tema{
+    background-color: rgb(0, 0, 0);
+    border: black;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top: 900px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Box Recomendação*/
+
+.box-main{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    
+
+}
+.text-main{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    position: relative;
+    bottom: 400px;
+    right: 200px;
+    width: 50%;
+    height: 50%;
+}
+.img-sp{
+    min-width: 100%;
+    width: 100%;
+    height:100%;
+    position: relative;
+    filter: blur(2px);
+    border: none;
+}
+.btn-main{
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    transition: 0.3s;
+    position: relative;
+    top: 50px;
+}
+.text-main-sk{
+    position: relative;
+    top: 20px;
+    font-size: 35px;
+    color: #fff;
+
+}
+.text-box{
+    position: relative;
+    bottom: 840px;
+    left: 350px;
+    width: 400px;
+    height: 300px;
+    background-color: #171a1fcb;
+    text-align: center;
+    border-radius: 20px;
+}
+/*footer*/
+footer{
+    font-size: 15px;
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #171a1f;
+}
+/*hovers*/
+.btn:hover{
+    color: rgb(145, 138, 138);
+    background-color: #121213;
+}
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.card-fb:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.card-ft:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.card-bb:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.card-bm:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.card-as:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.btn-main:hover{
+    color: rgb(145, 138, 138);
+    background-color: #121213;
+}

@@ -1,0 +1,16 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #F6DE5E;
+}
+/* Cabeçalho */
+    header{
+        background-color: #7E7E72;
+    }
+    header ul li{
+        display: inline-block;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
