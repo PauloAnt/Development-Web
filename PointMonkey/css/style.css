@@ -1,16 +1,132 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    background-color: #F6DE5E;
-}
+
 /* Cabeçalho */
     header{
         background-color: #7E7E72;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+    }
+    header img{
+        width: 100%;
     }
     header ul li{
         display: inline-block;
         color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: bold;
+        font-size: 18px;
+        vertical-align: top;
+        margin: 50px 30px;
+    }
+    a:link {
+        text-decoration: none;
+        color: inherit; 
+    }
+    a:visited {
+        text-decoration: none;
+        color: inherit;
+    }
+    header ul li:hover{
+        color: black;
+    }
+
+/* Corpo */
+    .subtitle{
+        font-size: 25px;
+        font-weight: bold;
+        padding: 20px 0;
+    }
+    .bananeira{
+        width: 25%;
+    }
+    .about{
+        background-image: linear-gradient(#7E7E72, #F6DE5E);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0;
+        height: 360px;
+    }
+    .about-text{
+        width: 35%;
+    }
+    .about-text p{
+        margin-top: 15px;
+    }
+    .recomendado{
+        background-color: rgb(204, 200, 200);
+        height: 1000px;
+        
+    }
+    .box-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-recomendado {
+        width: 80%;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #F6DE5E;
+        box-sizing: border-box;
+        transition: 0.5s;
+        margin-left: 40px;
+    }
+    .box-recomendado:hover{
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+    .img-recomendado{
+        width: 90%;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .button-sm{
+        margin-top: 30px;
+        background-color: orange;
+        color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 15px 0;
+    }
+    .button-sm:hover{
+        background-color: #7E7E72;
+    }
+    .subtitle-recomendado{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        padding: 70px 0;
+    }
+
+    .text-box{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px 0;
+    }
+
+/* Rodapé */
+
+    footer{
+        background-color: #7E7E72;
+        text-align: center;
+        padding: 20px;
+        color: white;
     }
