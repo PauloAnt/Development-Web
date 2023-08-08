@@ -1,0 +1,193 @@
+:root{
+    --branco-principal: white;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* Section 01 */
+    .section01{
+        color: var(--branco-principal);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        background-image: url("/MovieBoy/img/Imagens\ COMBO.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:100%;
+    }
+    .container{
+        height: 100vh;
+    }
+    .box-combo{
+        width: 400px;
+        margin-left: 150px;
+    }
+    .text-combo{
+        text-align: center;
+        font-size: 25px;
+        margin: 25px 0;
+        font-weight: bold;
+    }
+    ul{
+        padding: 0;
+    }
+    li {
+        color: var(--branco-principal);
+        margin-top: 15px;
+        list-style-type: none;
+        text-align: center;
+    }
+    .img-combo{
+        width: 400px;
+        cursor: pointer;
+    }
+    .button-combo{
+        padding: 15px;
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+
+    }
+    .button-saiba{
+        padding: 15px;
+        background-color: transparent;
+        border-radius: 9px;
+        border: 2px solid white;
+        transition: 0.5s;
+        cursor: pointer;
+
+    }
+    .text-aviso{
+        font-size: 12px;
+        color: gray;
+        margin-top: 15px;
+    }
+    /* Interação */
+        .button-combo:hover{
+            transform: scale(1.1);
+        }
+        .button-saiba:hover{
+            border: 2px solid gray;
+            color: gray;
+        }
+    
+/* Section02 */
+    .section02{
+        color: var(--branco-principal);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    .img-pc{
+        width: 600px;
+        margin-left: 50px;
+    }
+    .subtitle{
+        font-size: 35px;
+        font-weight: 700;
+        color: var(--branco-principal);
+    }
+    .text-s2{
+        color: var(--cinza-secundario);
+        margin-top: 15px;
+    }
+    
+/* Section03 */
+    .section03{
+        color: var(--branco-principal);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        text-align: center;
+    }
+    .img-site{
+        width: 500px;
+        margin-left: 50px;
+    }
+    .text-site{
+        font-size: 20px;
+        height: 60px;
+    }
+    .button-assinemb{
+        color: var(--branco-principal);
+        text-decoration: none;
+        background-color: #FF3131;
+        padding: 15px 50px;
+        border-radius: 15px;
+        transition: 0.5s;
+    }
+    /* Interação */
+        .button-assinemb:hover{
+            background-color: pink;
+        }
+/* Section04 */
+    .dispositivo{
+        text-align: center;
+    }
+    .list-disp{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 5em 0;
+    }
+    .text-disp{
+        color: var(--branco-principal);
+        margin: 10px 140px;
+    }
+    .img-lanc{
+        width: 400px;
+        margin-left: 150px;
+    }
+    .text-lanc{
+        margin-right: 130px;
+        margin-top: 15px;
+        color: var(--cinza-secundario);
+    }
+
+/* Rodape */
+    .rodape{
+        background-color: black;
+        text-align: center;
+        color: var(--cinza-secundario);
+        padding: 15px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    }
+    .list-rodape{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .list-rodape a{
+        color: var(--cinza-secundario);
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 12px;
+        color: var(--cinza-secundario);
+    }
+    .text2-rodape{
+        font-size: 12px;
+        color: var(--cinza-secundario);
+        padding: 5px;
+    }
+
+    /* Interação */
+        .list-rodape a:visited{
+            color: inherit;
+            text-decoration: none;
+        }
+        .list-rodape a:link{
+            color: inherit;
+            text-decoration: none;
+        }
